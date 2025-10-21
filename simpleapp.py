@@ -16,7 +16,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langchain_community.embeddings import SentenceTransformerEmbeddings
 
 # ============ CONFIGURATION ============
-  # Replace with your actual API key
+GOOGLE_API_KEY=st.secrets["GOOGLE_API_KEY"]
 PDF_DIRECTORY = r"pdf_files"  # Replace with your PDF directory path
 # =======================================
 
