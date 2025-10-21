@@ -17,7 +17,7 @@ from langchain_community.embeddings import SentenceTransformerEmbeddings
 
 # ============ CONFIGURATION ============
 GOOGLE_API_KEY = "AIzaSyBCYhjF8OdHO-IjyRN0KaqqET9x0N1YcVQ"  # Replace with your actual API key
-PDF_DIRECTORY = r"C:\Users\shash\OneDrive\Desktop\ChatApp1\pdf_files"  # Replace with your PDF directory path
+PDF_DIRECTORY = r"pdf_files"  # Replace with your PDF directory path
 # =======================================
 
 # Set API key
