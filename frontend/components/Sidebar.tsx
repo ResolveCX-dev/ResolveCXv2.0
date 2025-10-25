@@ -1,4 +1,3 @@
-// ...existing code...
 'use client'
 import React from 'react'
 import Link from 'next/link'
@@ -14,7 +13,7 @@ const sections = [
 
 const Sidebar = () => {
   return (
-    <aside className="flex flex-col border-r max-h-screen w-72 bg-white text-gray-800">
+    <aside className="flex flex-col border-r max-h-screen w-72 bg-white text-gray-800 rounded-[15px]">
       <div className="flex items-center justify-between p-4 border-b">
         <button
           type="button"

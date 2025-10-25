@@ -37,9 +37,9 @@ export default function ChatWindow() {
     };
 
     return (
-        <div className="flex flex-col h-screen w-full">
+        <div className="flex flex-col h-screen w-full rounded-[15px]">
             {/* Header */}
-            <div className="bg-blue-500 text-white p-4 flex items-center gap-3">
+            <div className="bg-blue-500 text-white p-4 flex items-center gap-3 rounded-t-[15px]">
                 <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
                     <span className="text-blue-500 font-bold">RX</span>
                 </div>
@@ -56,7 +56,7 @@ export default function ChatWindow() {
                 ))}
             </div>
 
-            <div className="bottom-0">
+            <div className="bottom-0 rounded-b-[15px]">
                                     <ChatInput onSend={handleSend} />
             </div>
 

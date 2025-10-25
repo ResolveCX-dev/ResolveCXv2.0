@@ -1,4 +1,3 @@
-// components/chat/ChatMessage.tsx
 import { Message } from '@/types/chat';
 import { Bot, User } from 'lucide-react';
 

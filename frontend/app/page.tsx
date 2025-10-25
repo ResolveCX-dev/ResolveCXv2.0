@@ -4,7 +4,7 @@ import ChatWindow from '@/components/chat/ChatWindow'
 
 export default function Page() {
   return (
-    <div className="min-h-screen p-6 flex bg-gray-50">
+    <div className="min-h-screen p-6 flex bg-gray-800 gap-3">
       <Sidebar />
       <ChatWindow />
     </div>

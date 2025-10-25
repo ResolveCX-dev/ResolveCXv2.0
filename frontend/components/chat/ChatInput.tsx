@@ -18,7 +18,7 @@ export default function ChatInput({
   };
 
   return (
-    <div className="border-t p-4 bg-white">
+    <div className="border-t p-4 bg-white rounded-b-[15px]">
       <div className="flex gap-2">
         <input
           type="text"
