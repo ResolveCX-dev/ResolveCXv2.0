@@ -5,7 +5,7 @@ const Logo = () => {
     return (
         <div className='inline-flex items-center gap-[5px] w-24 h-[26px]'>
             <Image
-                src="/favicon.ico"
+                src="/logo.png"
                 alt="Logo"
                 width={26}
                 height={26}
